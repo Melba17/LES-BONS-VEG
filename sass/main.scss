@@ -1,0 +1,108 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap");
+
+/* Pages */
+@import "accueil.scss";
+
+/* Modules */
+@import "modules/navbar.scss";
+@import "modules/footer.scss";
+
+@media screen and (max-width: 728px) {
+  * {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  :root {
+    /*Design System*/
+
+    /*Colors*/
+    --background-color: #432e42;
+    --white: #ffffff;
+    --violet: #432e42;
+    --yellow: #edff45;
+    --pink: #b56fb2;
+    --linear: #432e42 #b56fb2;
+
+    /* Text configuration */
+    --body-font: "Mukta Mahee";
+    --body-font-weight: 500;
+    --body-font-size: 1.75rem;
+
+    --body-highlight-font: "Mukta Mahee";
+    --body-highlight-font-weight: 700;
+    --body-highlight-font-size: 1.5rem;
+
+    --h1-font: "Mukta Mahee";
+    --h1-font-weight: 600;
+    --h1-font-size: 2.5rem;
+
+    --h2-font: "Dancing Script";
+    --h2-font-weight: 500;
+    --h2-font-size: 2rem;
+
+    --h3-font: "Mukta Mahee";
+    --h3-font-weight: 500;
+    --h3-font-size: 1.125rem;
+
+    --title-accueil-font: "Dancing Script";
+    --title-accueil-font-weight: 500;
+    --title-accueil-font-size: 1.625rem;
+
+    --menu-font: "Mukta Mahee";
+    --menu-font-weight: 500;
+    --menu-font-size: 1.5rem;
+
+    --cta-font: "Mukta Mahee";
+    --cta-font-weight: 500;
+    --cta-font-size: 1.125rem;
+
+    --title-adresses-font: "Mukta Mahee";
+    --title-adresses-font-weight: 600;
+    --title-adresses-font-size: 2rem;
+
+    --adresses-font: "Mukta Mahee";
+    --adresses-font-weight: 500;
+    --adresses-font-size: 1.375rem;
+
+    --card-h1-font: "Dancing Script";
+    --card-h1-font-weight: 700;
+    --card-h1-font-size: 2.5rem;
+
+    --card-h2-font: "Mukta Mahee";
+    --card-h2-font-weight: 700;
+    --card-h2-font-size: 1.375rem;
+
+    --card-h3-font: "Mukta Mahee";
+    --card-h3-font-weight: 700;
+    --card-h3-font-size: 1rem;
+
+    --card-number-font: "Mukta Mahee";
+    --card-number-font-weight: 700;
+    --card-number-font-size: 1.5rem;
+  }
+
+  body {
+    background-color: var(--white);
+    font-family: var(--body-font);
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    color: var(--violet);
+  }
+
+  h1 {
+    font-family: var(--h1-font);
+    font-weight: var(--h1-font-weight);
+    font-size: var(--h1-font-size);
+    color: var(--violet);
+  }
+  body,
+  h1,
+  h2,
+  h3 {
+    font-style: normal;
+    line-height: normal;
+  }
+}
