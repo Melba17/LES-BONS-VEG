@@ -1,8 +1,4 @@
 @media screen and (max-width: 728px) {
-  body {
-    width: 428px;
-    height: 926;
-  }
   .presentation {
     text-align: center;
     color: var(--violet);
@@ -28,17 +24,14 @@
     width: 145px;
     height: 183px;
     border-radius: 5px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     font-family: var(--title-accueil-font);
     font-weight: var(--title-accueil-font-weight);
     font-size: var(--title-accueil-font-size);
     color: var(--violet);
-    transform: translateX(0);
-    transition: all 450ms 150ms;
   }
   .box__one {
     background-color: #bcf5cc;
-    transform: translateX(100%);
   }
   .box__two {
     background-color: #fceda2;

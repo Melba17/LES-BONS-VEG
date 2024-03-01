@@ -2,10 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap");
 /* Pages */
 @media screen and (max-width: 728px) {
-  body {
-    width: 428px;
-    height: 926;
-  }
   .presentation {
     text-align: center;
     color: var(--violet);
@@ -31,7 +27,7 @@
     width: 145px;
     height: 183px;
     border-radius: 5px;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     font-family: var(--title-accueil-font);
     font-weight: var(--title-accueil-font-weight);
     font-size: var(--title-accueil-font-size);
@@ -77,9 +73,12 @@
     background-color: var(--violet);
     height: 74px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  footer .footer {
+    display: flex;
+    margin-top: 10px;
     gap: 70px;
   }
 }
@@ -144,6 +143,7 @@
     --card-number-font-size: 1.5rem;
   }
   body {
+    width: 428px;
     background-color: var(--white);
     font-family: var(--body-font);
     font-weight: var(--body-font-weight);

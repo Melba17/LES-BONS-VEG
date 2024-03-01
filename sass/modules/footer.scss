@@ -3,9 +3,13 @@
     background-color: var(--violet);
     height: 74px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+
+    .footer {
+      display: flex;
+      margin-top: 10px;
+      gap: 70px;
+    }
   }
 }
