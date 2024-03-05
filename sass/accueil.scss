@@ -60,7 +60,7 @@
       background-color: #bcf5cc;
     }
     .headshake {
-      animation: 570.055ms ease 1110.74ms 2 normal none running headshake;
+      animation: 570.055ms ease 1110.74ms 3 normal none running headshake;
       animation-timing-function: ease-in-out;
     }
 
@@ -88,8 +88,14 @@
       0% {
         transform: skew(0deg);
       }
-      50% {
+      25% {
         transform: skew(-8deg);
+      }
+      50% {
+        transform: skew(0deg);
+      }
+      75% {
+        transform: skew(6deg);
       }
       100% {
         transform: skew(0deg);
