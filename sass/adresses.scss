@@ -1,0 +1,49 @@
+@media screen and (max-width: 728px) {
+  .symboles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__marge {
+      margin-top: 57px;
+      margin-bottom: 57px;
+    }
+  }
+
+  .texte {
+    color: var(--violet);
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  .title {
+    margin-bottom: 43px;
+    text-align: center;
+    font-family: var(--title-adresses-font);
+    font-weight: var(--title-adresses-font-weight);
+    font-size: var(--title-adresses-font-size);
+    color: var(--green);
+  }
+
+  .highlight {
+    text-align: left;
+    font-family: var(--body-highlight-font);
+    font-weight: var(--body-highlight-font-weight);
+    font-size: var(--body-highlight-font-size);
+    margin-left: 72px;
+  }
+
+  .adresses {
+    text-align: left;
+    font-family: var(--adresses-font);
+    font-weight: var(--adresses-font-weight);
+    font-size: var(--adresses-font-size);
+    margin-left: 72px;
+
+    &__color {
+      color: var(--pink);
+    }
+  }
+}
