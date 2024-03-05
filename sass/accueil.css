@@ -53,16 +53,14 @@
     background-color: #bcf5cc;
   }
   .box .headshake {
-    animation: headshake 250ms 200ms 12 both;
+    animation: 570.055ms ease 1110.74ms 2 normal none running headshake;
+    animation-timing-function: ease-in-out;
   }
   @keyframes spin {
     0% {
       transform: rotate(0deg);
     }
-    33% {
-      transform: rotate(360deg);
-    }
-    66% {
+    50% {
       transform: rotate(-360deg);
     }
     100% {
@@ -73,20 +71,15 @@
     background-color: #fceda2;
   }
   .box .spin {
-    animation: spin 2000ms 200ms 2 both;
+    animation: 990.228ms ease 1257.32ms 1 normal none running spin;
+    animation-timing-function: ease-in-out;
   }
   @keyframes skew {
     0% {
       transform: skew(0deg);
     }
-    17% {
-      transform: skew(5deg);
-    }
-    24% {
-      transform: skew(10deg);
-    }
-    46% {
-      transform: skew(5deg);
+    50% {
+      transform: skew(-8deg);
     }
     100% {
       transform: skew(0deg);
@@ -96,20 +89,21 @@
     background-color: #f8be61;
   }
   .box .skew {
-    animation: skew 2s 200ms 3 both;
+    animation: 1000ms ease 1254.06ms 1 normal none running skew;
+    animation-timing-function: ease-in-out;
   }
   @keyframes scale {
     0% {
       transform: scale(1);
     }
     33% {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
     66% {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
     88% {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
     100% {
       transform: scale(1);
@@ -119,6 +113,7 @@
     background-color: #b6d6f2;
   }
   .box .scale {
-    animation: scale 2s 200ms 2 both;
+    animation: 1000ms ease 1257.32ms 1 normal none running scale;
+    animation-timing-function: ease-in-out;
   }
 }/*# sourceMappingURL=accueil.css.map */

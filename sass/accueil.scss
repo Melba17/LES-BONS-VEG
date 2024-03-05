@@ -18,7 +18,6 @@
   }
 
   @keyframes cards-accueil {
-
     from {
       transform: scale(0);
       opacity: 0;
@@ -44,13 +43,13 @@
     font-weight: var(--title-accueil-font-weight);
     font-size: var(--title-accueil-font-size);
     color: var(--violet);
-    animation: cards-accueil 1000ms 150ms  both;
+    animation: cards-accueil 1000ms 150ms both;
 
     $shake-intensity: 2%;
 
     @keyframes headshake {
       25% {
-        transform: translatex($shake-intensity)
+        transform: translatex($shake-intensity);
       }
       75% {
         transform: translateX(-$shake-intensity);
@@ -61,80 +60,73 @@
       background-color: #bcf5cc;
     }
     .headshake {
-      animation: headshake 250ms 200ms 12 both;
+      animation: 570.055ms ease 1110.74ms 2 normal none running headshake;
+      animation-timing-function: ease-in-out;
     }
 
     @keyframes spin {
       0% {
-          transform: rotate(0deg)
+        transform: rotate(0deg);
       }
-      33% {
-        transform: rotate(360deg)
-      }
-      66% {
-        transform: rotate(-360deg)
+      50% {
+        transform: rotate(-360deg);
       }
       100% {
-            transform: rotate(360deg)
+        transform: rotate(360deg);
       }
     }
-
 
     &__two {
       background-color: #fceda2;
     }
     .spin {
-      animation: spin 2000ms 200ms 2 both;
+      animation: 990.228ms ease 1257.32ms 1 normal none running spin;
+      animation-timing-function: ease-in-out;
     }
 
     @keyframes skew {
       0% {
-        transform: skew(0deg)
+        transform: skew(0deg);
+      }
+      50% {
+        transform: skew(-8deg);
+      }
+      100% {
+        transform: skew(0deg);
+      }
     }
-    17% {
-      transform: skew(5deg)
-    }
-    24% {
-      transform: skew(10deg)
-    }
-    46% {
-      transform: skew(5deg)
-    }
-    100% {
-      transform: skew(0deg)
-    }
-  }
     &__three {
       background-color: #f8be61;
     }
     .skew {
-      animation: skew 2s 200ms 3 both;
+      animation: 1000ms ease 1254.06ms 1 normal none running skew;
+      animation-timing-function: ease-in-out;
     }
-    
+
     @keyframes scale {
-        0% {
-          transform: scale(1);
-        }
-        33% {
-          transform: scale(1.1);
-        }
-        66% {
-          transform: scale(1.2);
-        }
-        88% {
-          transform: scale(1.1);
-        }
-        100% {
-          transform: scale(1);
-        }
+      0% {
+        transform: scale(1);
+      }
+      33% {
+        transform: scale(1.05);
+      }
+      66% {
+        transform: scale(1.1);
+      }
+      88% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
     }
 
     &__four {
       background-color: #b6d6f2;
     }
     .scale {
-      animation: scale 2s 200ms 2 both;
+      animation: 1000ms ease 1257.32ms 1 normal none running scale;
+      animation-timing-function: ease-in-out;
     }
   }
 }
-
