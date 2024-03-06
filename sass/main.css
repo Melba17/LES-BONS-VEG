@@ -151,12 +151,18 @@
     font-size: var(--title-adresses-font-size);
     color: var(--green);
   }
+  .title__marge {
+    margin-top: 43px;
+  }
   .highlight {
     text-align: left;
     font-family: var(--body-highlight-font);
     font-weight: var(--body-highlight-font-weight);
     font-size: var(--body-highlight-font-size);
     margin-left: 72px;
+  }
+  .highlight__marge {
+    margin-top: 43px;
   }
   .adresses {
     text-align: left;
@@ -167,6 +173,9 @@
   }
   .adresses__color {
     color: var(--pink);
+  }
+  .marge {
+    margin-bottom: 72px;
   }
 }
 /* Modules */

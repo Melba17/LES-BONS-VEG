@@ -25,6 +25,10 @@
     font-weight: var(--title-adresses-font-weight);
     font-size: var(--title-adresses-font-size);
     color: var(--green);
+
+    &__marge {
+      margin-top: 43px;
+    }
   }
 
   .highlight {
@@ -33,6 +37,10 @@
     font-weight: var(--body-highlight-font-weight);
     font-size: var(--body-highlight-font-size);
     margin-left: 72px;
+
+    &__marge {
+      margin-top: 43px;
+    }
   }
 
   .adresses {
@@ -45,5 +53,9 @@
     &__color {
       color: var(--pink);
     }
+  }
+
+  .marge {
+    margin-bottom: 72px;
   }
 }
